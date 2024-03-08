@@ -9,10 +9,10 @@ Drag & Drop to your Resource folder
 
 </h1>
 
-<h1>
+<h3>
 delete the chat folder from
  \resources\[cfx-default]\[gameplay]
-</h1>
+</h3>
 
 
 # Tebex
