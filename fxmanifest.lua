@@ -1,9 +1,10 @@
 fx_version 'bodacious'
 game 'gta5'
 
-name 'Chat Management'
-description 'Chat default UI Edited'
 author 'BlasterrSuraj'
+description 'Chat UI EF Development'
+discord 'https://discord.gg/ef-development-tm-936207653145833503'
+tebex 'http://ef-development.tebex.io/'
 
 ui_page 'html/index.html'
 
@@ -26,4 +27,10 @@ files {
   'html/vendor/vue.2.3.3.min.js',
   'html/vendor/flexboxgrid.6.3.1.min.css',
   'html/vendor/animate.3.5.2.min.css',
+}
+
+escrow_ignore {
+  'config.lua',
+  'sv_chat.lua',
+  'cl_chat.lua',
 }
