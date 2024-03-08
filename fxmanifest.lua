@@ -1,5 +1,6 @@
 fx_version 'bodacious'
 game 'gta5'
+lua54 'yes'
 
 author 'BlasterrSuraj'
 description 'Chat UI EF Development'
