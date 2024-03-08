@@ -38,6 +38,8 @@ AddEventHandler('chat:addMessage', function(message)
     SendNUIMessage({type = 'ON_MESSAGE', message = message})
 end)
 
+print('EF-Chat Made By: [EF Development] BlasterSuraj')
+
 AddEventHandler('chat:addSuggestion', function(name, help, params)
     SendNUIMessage({
         type = 'ON_SUGGESTION_ADD',

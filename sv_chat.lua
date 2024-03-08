@@ -53,6 +53,8 @@ AddEventHandler('chat:init', function()
     refreshCommands(source)
 end)
 
+print('EF-Chat Made By: [EF Development] BlasterSuraj')
+
 AddEventHandler('onServerResourceStart', function(resName)
     Wait(500)
 
