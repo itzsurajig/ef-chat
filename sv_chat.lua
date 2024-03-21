@@ -64,20 +64,4 @@ AddEventHandler('onServerResourceStart', function(resName)
 end)
 
 
---  suraj  
-local QBCore = exports['qb-core']:GetCoreObject()
-
-local canAdvertise = true
-local crimetoggle = false
-
-if Config.EnableOOCCommand then
-	RegisterCommand(Config.OOCCommand, function(source, args, rawCommand)
-		local Player = QBCore.Functions.GetPlayer(source)
-		local length = string.len(Config.OOCCommand)
-		local message = rawCommand:sub(length + 1)
-		local time = os.date(Config.DateFormat)
-		playerName = Player.PlayerData.name
-		TriggerClientEvent('chat:ooc', -1, source, playerName, message, time)
-	end)
-end
    
