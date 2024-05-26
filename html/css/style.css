@@ -105,15 +105,12 @@ textarea {
   color: rgb(255, 255, 255);
   width: 90%;
   border-radius: 1vh;
-  /* border-style: solid;
-  border-width: 2px; */
   border: 1px solid  white;
   height: 4.5vh;
   overflow: hidden;
   text-overflow: ellipsis;
   resize: none;
   box-shadow: 0 0 20px 0px black;
-  /* background: linear-gradient(112deg,#3f3e3e94  3%, #47474759 70%); */
   background: radial-gradient(circle, rgba(19, 72, 85, 0.767) 0%, rgba(43, 44, 48, 0.692) 100%);
 }
 
@@ -132,15 +129,11 @@ input:focus {
   font-size: 0.9rem;
   box-sizing: border-box;
   color: white;
-  /* background-color: rgba(51, 51, 51, 0); */
   border: 1px solid  white;
-  /* border: 0px solid rgba(66, 66, 66, 1); */
   margin-top: 0.5vw;
   width: 90%;
   border-radius: 0.5vw;
   box-shadow: 0 0 20px 0px black;
-  /* background-color: #0F1233; */
-  /* background: linear-gradient(112deg,#3f3e3e94  3%, #47474759 70%); */
   background: radial-gradient(circle, rgba(19, 72, 85, 0.767) 0%, rgba(43, 44, 48, 0.692) 100%);
 }
 
@@ -159,8 +152,6 @@ input:focus {
   font-weight: 400;
   color: #f4f4f4;
   padding: 0.8vh 0.6vh;
-  /* border: 0.2vh solid rgba(255, 255, 255, 0);
-  background: #19225300; */
   width: fit-content;
   border-radius: 100%;
   color: #b3b3b3;
@@ -198,8 +189,6 @@ input:focus {
 .chat-message {
   margin: 0.1vw;
   margin-left: 0.4vw;
-  /* background-color: #276668; */
-  /* background: linear-gradient(112deg, #004D74  3%, #2c8579a2 70%); */
   background: radial-gradient(circle, rgba(19, 72, 85, 0.767) 0%, rgba(43, 44, 48, 0.692) 100%);
   box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.753);
   width: 22vw;
@@ -260,7 +249,6 @@ input:focus {
   margin-right: 0.5vh;
   padding: 0.3vh 0.9vh;
   background: radial-gradient(circle, rgba(19, 72, 85, 0.767) 0%, rgba(43, 44, 48, 0.692) 100%);
-  /* background: linear-gradient(112deg, #3f3e3e94  3%, #47474759 70%); */
   font-size: 1.5vh;
   border-radius: 1vh;
   border-style: solid;
@@ -343,5 +331,3 @@ input:focus {
 	padding: 5px;
 	border-radius: 5px;
 }
-
-/* END OOC */
